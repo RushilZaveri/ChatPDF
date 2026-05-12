@@ -42,7 +42,7 @@ Answer:"""
     return response["message"]["content"]
 
 if __name__ == "__main__":
-    question = "What is this document about?"
+    question = "What is name of person which is mention in document?"
     print(f"\nQuestion: {question}\n")
     answer = answer_question(question)
     print(f"Answer: {answer}")
